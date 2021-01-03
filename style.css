@@ -55,7 +55,7 @@
  float: left;
  text-align: justify;
 }
-@media (min-width:400px){
+@media (min-width:350px){
   
   .container-carousel{
     padding-top: 90px;
