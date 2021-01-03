@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&family=Source+Code+Pro:ital,wght@0,900;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
-
 .fluid{
     padding: 0px;
     position: fixed;
@@ -34,7 +33,7 @@
 
 
 .container-main{
-  height: 1000px;
+  height: auto
   width: 100%;
 }
 .main-post{
@@ -56,18 +55,73 @@
  float: left;
  text-align: justify;
 }
-h6{
-  text-align: left;
+.main-footer{
+  overflow: hidden;
 }
+.center-footer{
+  display:block;
+  width: 50%;
+  height: 200px;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+  
+li{
+  display: inline-block;
+  float: left;
+  
+}
+li a{
+  padding: 50px;
+}
+
+
+h6{
+  text-align:left;
+}
+
+.icons a:hover{
+  color: #d14f47;
+}
+
+
+
+
 @media (min-width:250px){
   
   .container-carousel{
     padding-top: 90px;
   }
-  h6{
-    text-align: justify;
-    padding-top: 10px;
+  .main-footer{
   }
+  .center-footer{
+    margin-top:30px;
+    width: 80%;
+    height: 30px;
+  }
+ .icons{
+   width: 150px;
+   height: auto;
+   display:block;
+   margin: 0 auto;
+   
+ }
+  .icons a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+ .pfooter{
+   
+   color: white;
+   font-size: 0.5rem;
+   text-align: center;
+   padding: 50px;
+ }
+  
   
 }
 @media (min-width:576px){
@@ -78,7 +132,33 @@ h6{
 
 @media (min-width:768px){
   
- 
+  h6{
+    text-align:left;
+    padding-top: 10px;
+  }
+  .icons{
+    width: 200px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+    
+  }
+  .icons a{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+  }
+ .pfooter{
+   
+   color: white;
+   font-size: 1rem;
+   text-align: center;
+   padding: 50px;
+ }
+  
+
+
  }
 
 
