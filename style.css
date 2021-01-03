@@ -28,6 +28,7 @@
   height: auto;
   z-index: -1;
   
+  
 }
 
 
@@ -54,27 +55,6 @@
  float: left;
  text-align: justify;
 }
-
-
-@media (min-width:992px){
- 
-
-@media (min-width:768px){
-  
- 
- }
- @media (min-width:576px){
-   
-  .container-carousel{
-
-    top: 50px;
-  }
-  .container-main{
-    margin-top: 100px;
-  }
-  
- 
-}
 @media (min-width:456px){
   .container-carousel{
 
@@ -87,3 +67,30 @@
   
   
 }
+@media (min-width:576px){
+   
+  
+  .container-main{
+    margin-top: 100px;
+}
+
+
+@media (min-width:768px){
+  .container-carousel{
+    
+    
+  }
+ 
+ }
+
+
+@media (min-width:992px){
+}
+ 
+
+
+
+  
+ 
+
+
