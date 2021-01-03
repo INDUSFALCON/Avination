@@ -55,31 +55,21 @@
  float: left;
  text-align: justify;
 }
-@media (min-width:456px){
-  .container-carousel{
-
-    top: 90px;
-  }
-  .container-main{
-    padding-top: 20px;
-    margin-top: 100px;
-  }
+@media (min-width:400px){
   
+  .container-carousel{
+    padding-top: 90px;
+  }
   
 }
 @media (min-width:576px){
-   
   
-  .container-main{
-    margin-top: 100px;
+   
 }
 
 
 @media (min-width:768px){
-  .container-carousel{
-    
-    
-  }
+  
  
  }
 
